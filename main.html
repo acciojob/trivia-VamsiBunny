@@ -3,35 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz</title>
+    <title>Quiz Question</title>
     <style>
-        .quotation {
+        .quote {
             max-width: 600px;
             margin: 10px;
             padding: 15px;
-            border-left: 8px solid rgb(0, 128, 0); /* Use rgb value for green */
+            border-left: 8px solid green;
             background-color: #f8fffe;
             font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <!-- Question Section -->
-    <section>
-        <h2>What is the capital of India?</h2>
-        <form>
-            <input type="radio" id="new-delhi" name="capital" value="New Delhi">
-            <label for="new-delhi">New Delhi</label><br>
-            <input type="radio" id="mumbai" name="capital" value="Mumbai">
-            <label for="mumbai">Mumbai</label>
-        </form>
-    </section>
-
-    <!-- Quotation Section -->
-    <section>
-        <blockquote class="quotation">
-            "New Delhi is the capital of India and an administrative district of NCT Delhi." - Wikipedia
-        </blockquote>
-    </section>
+    <h1>Quiz Question</h1>
+    <form>
+        <label for="question">What is the capital of India?</label><br>
+        <input type="radio" id="new-delhi" name="capital" value="New Delhi">
+        <label for="new-delhi">New Delhi</label><br>
+        <input type="radio" id="mumbai" name="capital" value="Mumbai">
+        <label for="mumbai">Mumbai</label><br>
+    </form>
+    <blockquote class="quote">
+        "New Delhi is the capital of India and an administrative district of NCT Delhi." - Wikipedia
+    </blockquote>
 </body>
 </html>
